@@ -7,7 +7,7 @@
 | Item | Details |
 |---|---|
 | Platform | Windows Desktop + ESP32 Physical Pet |
-| Course | SCSE3103 Cognitive Computing |
+| Course | SCSE3103-04 Cognitive Computing |
 | Institution | Universiti Teknologi Malaysia (UTM) |
 | Team Members | WU YUQI, BAO YILIN |
 
