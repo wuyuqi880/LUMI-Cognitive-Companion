@@ -1,0 +1,31 @@
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/out/
+**/.vite/
+**/.eslintcache
+**/*.log
+
+# Local settings, credentials and databases
+**/.env
+**/.env.*
+!**/.env.example
+**/*.db
+**/*.db-*
+**/*.sqlite
+**/*.sqlite3
+**/*.pem
+**/*.p12
+**/*.pfx
+**/.vscode/
+
+# Local UI working backups
+**/lumi-ui-v1-backup/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Unpublished UI template snapshots
+**/*.template-backup.txt
+**/*.original.txt

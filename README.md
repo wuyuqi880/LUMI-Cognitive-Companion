@@ -13,6 +13,38 @@
 
 ---
 
+## Development Progress (24 November 2026)
+
+**Implemented in the desktop prototype**
+
+- Electron, React and TypeScript application structure.
+- Companion Panel interface with Chat, Tasks, Reasoning and Style tabs.
+- Custom rabbit-eared LUMI character, six expressions and five changeable colour themes.
+- Desktop Pet interface with Electron frameless-window switching (floating interaction is still being tested).
+- Local theme preference storage and temporary frontend task-list interactions.
+
+**Currently in development**
+
+- Reliable small floating Desktop Pet experience and usability polishing.
+- SQLite task persistence and full task CRUD.
+- Knowledge Representation, Rule-Based Reasoning and Fuzzy Logic for explainable reminders.
+- NLP, scheduling and notification workflows.
+- ESP32 physical companion integration after hardware delivery.
+
+**Important:** The current Chat and Tasks views are frontend prototypes. SQLite, AI conversation, cognitive decision-making and hardware functions are not yet implemented end-to-end.
+
+### Run the current prototype
+
+```bash
+cd apps/desktop
+npm ci
+npm run dev
+```
+
+See [Desktop Application Source](apps/desktop) for implementation and development commands.
+
+---
+
 ## About LUMI
 
 LUMI is an interactive AI cognitive companion that combines a Windows desktop application with a self-built physical pet.
